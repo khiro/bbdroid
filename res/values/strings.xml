@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">BBdroid</string>
+<string name="nickname">Nickname</string>
+<string name="password">Password</string>
+<string name="host">Host</string>
+<string name="port">Port</string>
+<string name="menu_save">save</string>
+<string name="menu_delete">delete</string>
+<string name="menu_new">new</string>
+<string name="connect">Connect</string>
+<string name="say">Say</string>
+<string name="template_user_agent" translatable="false">"%1$s/%2$s (Linux; Android)"</string>
+<string name="channel_dialog_two_buttons_title">New Channel</string>
+<string name="channel_dialog_ok">OK</string>
+<string name="channel_dialog_cancel">Cancel</string>
+<string name="channel_list">List</string>
+<string name="channel">Channel</string>
+<string name="channelname"></string>
+<string name="search">Search</string>
+<color name="screenname_color">#E7E7E7</color>  
+<color name="text_color">#d2d2d2</color>  
+</resources>

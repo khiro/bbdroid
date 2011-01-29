@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableLayout android:id="@+id/TableLayout01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:shrinkColumns="*">
+
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/TableRow01">
+			<TextView android:id="@+id/TextView01"
+				android:layout_height="wrap_content" android:text="@string/nickname"
+				android:layout_width="wrap_content">
+			</TextView>
+			<EditText android:id="@+id/EditText01" android:text="@+id/EditText01"
+				android:layout_width="200sp" android:layout_height="50sp">
+			</EditText>
+		</TableRow>
+
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/TableRow02">
+			<TextView android:id="@+id/TextView02"
+				android:layout_height="wrap_content" android:text="@string/password"
+				android:layout_width="wrap_content"></TextView>
+			<EditText android:id="@+id/EditText02" android:text="@+id/EditText02"
+				android:password="true" android:layout_width="200sp"
+				android:layout_height="50sp">
+			</EditText>
+		</TableRow>
+
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/TableRow03">
+			<TextView android:id="@+id/TextView03"
+				android:layout_height="wrap_content" android:text="@string/host"
+				android:layout_width="wrap_content"></TextView>
+			<EditText android:id="@+id/EditText03" android:text="@+id/EditText03"
+				android:layout_width="200sp" android:layout_height="50sp"></EditText>
+		</TableRow>
+
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/TableRow04">
+			<TextView android:id="@+id/TextView04"
+				android:layout_height="wrap_content" android:text="@string/port"
+				android:layout_width="wrap_content"></TextView>
+			<EditText android:id="@+id/EditText04" android:text="@+id/EditText04"
+				android:layout_width="200sp" android:layout_height="50sp"></EditText>
+
+		</TableRow>
+
+	</TableLayout>
+
+	<Button android:layout_width="100dip" android:id="@+id/Button01"
+		android:text="@string/connect" android:layout_height="50dip"
+		android:layout_gravity="center|top"
+	></Button>
+	
+</LinearLayout>
